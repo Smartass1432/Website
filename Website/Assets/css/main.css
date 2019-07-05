@@ -1,0 +1,56 @@
+body, html {
+    height: 100%;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+}
+.bg-image {
+    background-image: url("Website/Assets/media/background.jpg");
+  
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    height: 100%; 
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  h1 {
+      font-size: 45px;
+  }
+  ul {
+      list-style-type: none;
+      font-size: 20px;
+  }
+  li {
+      color: white;
+  }
+  li:hover {
+      color: lightgray;
+  }
+  a {
+      color: white;
+      text-decoration: none;
+  }
+  a:hover {
+      color: lightgray;
+  }
+  p {
+      font-size: 30px;
+  }
